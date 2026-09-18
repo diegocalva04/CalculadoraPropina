@@ -1,3 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">CalculadoraPropina</string>
+    <string name="app_name">Calculadora de Propinas</string>
+    <string name="calculate_tip">Calcular Propina</string>
+    <string name="bill_amount">Monto de la Factura</string>
+    <string name="tip_amount">Monto de la Propina: %s</string>
 </resources>
