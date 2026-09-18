@@ -162,11 +162,7 @@ fun RoundTheTipRow(
     }
 }
 
-/**
- * Calculates the tip based on the user input and format the tip amount
- * according to the local currency.
- * Example would be "$10.00".
- */
+// Calcula la propina basándose en la entrada del usuario y formatea el monto según la moneda local.
 private fun calculateTip(amount: Double, tipPercent: Double = 15.0, roundUp: Boolean): String {
     var tip = tipPercent / 100 * amount
     if (roundUp) {

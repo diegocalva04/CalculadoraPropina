@@ -77,8 +77,7 @@ private val DarkColorScheme = darkColorScheme(
 @Composable
 fun CalculadoraPropinaTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
-    // Dynamic color is available on Android 12+
-    // Dynamic color in this app is turned off for learning purposes
+    // El color dinámico está desactivado para este ejemplo.
     dynamicColor: Boolean = false,
     content: @Composable () -> Unit
 ) {
